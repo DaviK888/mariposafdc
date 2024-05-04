@@ -26,7 +26,7 @@ function closeMenu() {
 
 const mybutton = document.querySelector("#btn-back-to-top");
 
-// If the user scrolls down 800px from the top of the document, scrollFunction  will change #btn-back-to-top to display: block , or else display will stay as 'none'
+// If the user scrolls down 1000px from the top of the document, scrollFunction  will change #btn-back-to-top to display: block , or else display will stay as 'none'
 
 window.onscroll = function() {
   scrollFunction();
