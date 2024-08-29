@@ -662,6 +662,46 @@ a {
   transition: 0.2 ease-in-out;
 }
 
+/*---CONTACT---*/
+
+.contact {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 10px;
+  padding: 50px;
+  color: black;
+  font-size: 13px;
+}
+
+.contact .get-in-touch a, .contact .get-in-touch p {
+  color: black;
+}
+
+.contact .get-in-touch a:hover {
+  color: white;
+  transition: 0.2s ease-in-out;
+}
+
+.contact .fb-item {
+  transition: 0.2 ease-in-out;
+}
+
+.contact .fb-item:hover {
+  transform: scale(1.5);
+  transition: 0.2 ease-in-out;
+}
+
+.contact .chinese-span {
+  border: 2px solid black;
+  font-size: 15px;
+}
+
+.contact .chinese-span:hover:after {
+  content: "We speak Chinese";
+  font-size: 10px;
+}
+
 /*---MEDIA QUERIES FOR RESPONSIVENESS---*/
 
 @media (max-width: 300px) {
@@ -996,6 +1036,11 @@ a {
 
   .get-in-touch p {
     text-align: left;
+  }
+
+  #fbid {
+    display: flex;
+    align-items: left;
   }
 }
 
